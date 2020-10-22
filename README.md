@@ -1,7 +1,7 @@
 # SRNS
 
 This repository is the official implementation of **Simplify and Robustify Negative Sampling for**
-**Implicit Collaborative Filtering** (Submitted to NeurIPS 2020) 
+**Implicit Collaborative Filtering** (Accepted by NeurIPS 2020) 
 
 ## Requirements
 
