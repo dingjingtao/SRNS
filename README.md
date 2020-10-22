@@ -3,6 +3,8 @@
 This repository is the official implementation of **Simplify and Robustify Negative Sampling for**
 **Implicit Collaborative Filtering** (Accepted by NeurIPS 2020) 
 
+Jingtao Ding, Yuhan Quan, Quanming Yao, Yong Li,Depeng Jin. Simplify and Robustify Negative Sampling for Implicit Collaborative Filtering.
+
 ## Requirements
 
 We conducted experiments under：
