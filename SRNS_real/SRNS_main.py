@@ -171,7 +171,7 @@ def training(model, args, train_data, val_data, test_data, test_data_neg, num_us
                 for j in range(args.varset_size):
                     while candidate_nxt[4][i, j] in train_set[i]:
                         candidate_nxt[4][i, j] = random.randint(0, num_item - 1)
-            score_cand_nxt[4] = np.delete(score_cand_nxt[4], list(range(5)), 0)
+            score_cand_nxt[4] = np.delete(score_cand_nxt[4], list(range(score_cand_nxt[4].shape[0])), 0)
 
             if Recall[0] > Metric_best:
                 Model_byR1_param = sess.run([model.embeddingmap_user, model.embeddingmap_item, model.h])
